@@ -84,7 +84,7 @@
 			</jacoco:report>
 		</target>
 	
-	<property name="apache.tomcat7" value="apache-tomcat-7.0.32"/>
+	<property name="apache.tomcat7" value="apache-tomcat-7.0.34"/>
 	
 	<target name="gera-war" depends="executar-os-testes">
 		<war destfile="${apache.tomcat7}/webapps/pm-75-leiloes.war">
